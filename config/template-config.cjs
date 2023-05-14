@@ -2,7 +2,7 @@
 const TEMPLATE_CONFIG = [
   {
     id: '0001',
-    title: '亲爱的, 早上好',
+    title: '亲爱的璐璐小可爱, 早上好鸭',
     desc: `
       **{{date.DATA}}**
       
@@ -24,7 +24,7 @@ const TEMPLATE_CONFIG = [
       
       ---
       
-      今天是我们相识的第{{love_day.DATA}}天
+      今天是我们相恋的第{{love_day.DATA}}天
       
       {{birthday_message.DATA}}
       
@@ -50,6 +50,76 @@ const TEMPLATE_CONFIG = [
       成功用户: {{success_post_ids.DATA}}
       
       失败用户: {{fail_post_ids.DATA}}
+    `
+  },
+   {
+    id: '0003',
+    title: '亲爱的头哥, 为我们的友谊干杯',
+    desc: `
+      **{{date.DATA}}**
+      
+      下个休息日：{{holidaytts.DATA}}
+      
+      ---
+      
+      城市：{{city.DATA}}
+      
+      天气：{{weather.DATA}}
+      
+      气温(最高/最低):{{max_temperature.DATA}} / {{min_temperature.DATA}}
+      
+      风向: {{wind_direction.DATA}}
+      
+      风级: {{wind_scale.DATA}}
+      
+      {{comprehensive_horoscope.DATA}}
+      
+      ---
+      
+      今天是我们相识的第{{meet_day.DATA}}天
+      
+      {{birthday_message.DATA}}
+      
+      ---
+      
+      {{moment_copyrighting.DATA}}
+      
+      {{poetry_title.DATA}} {{poetry_content.DATA}}
+    `
+  },
+  {
+    id: '0004',
+    title: '亲爱的马斯小喵, 今天也要好好爱老婆哟',
+    desc: `
+      **{{date.DATA}}**
+      
+      下个休息日：{{holidaytts.DATA}}
+      
+      ---
+      
+      城市：{{city.DATA}}
+      
+      天气：{{weather.DATA}}
+      
+      气温(最高/最低):{{max_temperature.DATA}} / {{min_temperature.DATA}}
+      
+      风向: {{wind_direction.DATA}}
+      
+      风级: {{wind_scale.DATA}}
+      
+      {{comprehensive_horoscope.DATA}}
+      
+      ---
+      
+      今天是我们相恋的第{{love_day.DATA}}天
+      
+      {{birthday_message.DATA}}
+      
+      ---
+      
+      {{moment_copyrighting.DATA}}
+      
+      {{poetry_title.DATA}} {{poetry_content.DATA}}
     `
   },
 ]
