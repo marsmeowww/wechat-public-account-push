@@ -27,7 +27,9 @@ const TEMPLATE_CONFIG = [
       {{birthday_message.DATA}}
       
       ---
+      
       {{comprehensive_horoscope.DATA}}
+      
       ---
       
       {{moment_copyrighting.DATA}}
